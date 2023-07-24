@@ -87,4 +87,4 @@ app.get('/jobs', (req, res)=>{
     fetchAndRenderPage('/jobs', res);
 })
 
-app.listen(process.env.PORT || PORT)
+app.listen(PORT)
